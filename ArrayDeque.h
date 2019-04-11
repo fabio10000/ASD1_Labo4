@@ -19,18 +19,35 @@ private:
    size_type taille;
 
 public:
-   ArrayDeque(size_type capacity = 0) : debut(0), taille(0), buffer(capacity)
-   {
+   ArrayDeque(size_type capacity = 0) : debut(0), taille(0), buffer(capacity) {
    }
-   size_type size() const;
-   size_type capacity() const;
-   bool empty() const;
-   ArrayDeque<T>& push_back(value_type val);
-   ArrayDeque<T>& push_front(value_type val);
-   reference back() const;
-   reference front() const;
-   value_type pop_front();
-   value_type pop_back();
+   size_type size() const {
+
+   };
+   size_type capacity() const {
+
+   };
+   bool empty() const {
+
+   };
+   ArrayDeque<T>& push_back(value_type val) {
+
+   };
+   ArrayDeque<T>& push_front(value_type val) {
+
+   };
+   reference back() const {
+
+   };
+   reference front() const {
+
+   };
+   value_type pop_front() {
+
+   };
+   value_type pop_back() {
+
+   };
 
 
 // Completer cette classe générique pour qu'elle passe le codecheck
