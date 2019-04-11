@@ -21,6 +21,7 @@ private:
 public:
    ArrayDeque(size_type capacity = 0) : debut(0), taille(0), buffer(capacity) {
    }
+
    size_type size() const {
       return buffer.size();
    };
@@ -28,7 +29,7 @@ public:
       return taille;
    };
    bool empty() const {
-      return buffer.empty();
+      return debut == 0;
    };
    ArrayDeque<T>& push_back(value_type val) {
 
@@ -42,15 +43,17 @@ public:
    reference front() const {
 
    };
-   value_type pop_front() {
-
+   void pop_front() {
+      if (debut > 0) {
+         for (size_t i = 0;  i < debut ; ++i) {
+            buffer.at(i) == buffer.at(i + 1);
+         }
+         --debut;
+      }
    };
-   value_type pop_back() {
-
+   void pop_back() {
+      if (debut > 0) --debut;
    };
-
-
-// Completer cette classe générique pour qu'elle passe le codecheck
 
 
 };
