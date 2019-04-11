@@ -22,13 +22,13 @@ public:
    ArrayDeque(size_type capacity = 0) : debut(0), taille(0), buffer(capacity) {
    }
    size_type size() const {
-
+      return buffer.size();
    };
    size_type capacity() const {
-
+      return taille;
    };
    bool empty() const {
-
+      return buffer.empty();
    };
    ArrayDeque<T>& push_back(value_type val) {
 
