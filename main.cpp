@@ -126,18 +126,20 @@ int main() {
    std::cerr << "4" << std::endl;
    testVariableCapacity();
    std::cerr << "5" << std::endl;
-   /*ArrayDeque<int> dq;
-   size_t cap = dq.capacity();
-   dq.push_front(2);
-   dq.push_front(5);
-   dq.push_front(6);
-   dq.push_front(7);
-   dq.push_back(9);
-   dq.push_back(8);
-   dq.push_back(10);
-   dq.push_front(11);
-   dq.push_front(12);
-   dq.show();
+//   ArrayDeque<int> dq;
+//   size_t cap = dq.capacity();
+//   dq.push_front(2);
+//   dq.push_front(5);
+//   dq.push_front(6);
+//   dq.push_back(3);
+//   dq.push_back(15);
+//   dq.push_front(7);
+//   dq.push_back(9);
+//   dq.push_back(8);
+//   dq.push_back(10);
+//   dq.push_front(11);
+//   dq.push_front(12);
+//   dq.show();
 
-   cout << "front : " << dq.front() << " | back : " << dq.back() << endl;*/
+//   cout << "front : " << dq.front() << " | back : " << dq.back() << endl;
 }
